@@ -1,0 +1,22 @@
+{
+  "name": "api-url-shortener-microservice",
+  "version": "1.0.0",
+  "description": "The API helps in providing a shorturl for a website whose url is submitted",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server"
+  },
+  "author": "Shubbham Jain",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.23",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

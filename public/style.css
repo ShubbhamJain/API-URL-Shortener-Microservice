@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(180, 12, 12);
+  color: #fff;
+  padding: 30px;
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+#use {
+  margin-top: 40px;
+}
+
+#form {
+  margin-top: 40px;
+}
+
+label,
+input {
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 12px;
+}
+
+label {
+  font-weight: bold;
+}
+
+#urlInput {
+  padding: 8px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+input[type="submit"] {
+  padding: 8px;
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+input[type="submit"]:active {
+  transform: translate(0, 2px);
+}

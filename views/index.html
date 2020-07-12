@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>URL Shortener Microservice</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="head">URL Shortener Microservice</h1>
+      <h3 id="use">Usage-</h3>
+      <p>
+        The API helps in providing a shorturl for a website whose url is
+        submitted.
+      </p>
+      <form action="/new" method="POST" id="form">
+        <label for="urlInput">Enter URL to be shortened-</label>
+        <input
+          type="text"
+          id="urlInput"
+          name="url"
+          placeholder="Eg.- https://www.google.com"
+        />
+        <input type="submit" value="Shorten Url" />
+      </form>
+    </div>
+  </body>
+</html>
